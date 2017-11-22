@@ -35,7 +35,6 @@ public class RNFilepickerAndroidModule extends ReactContextBaseJavaModule implem
 
     private Callback pickerSuccessCallback;
     private Callback pickerCancelCallback;
-  private final ReactApplicationContext reactContext;
 
   public RNFilepickerAndroidModule(ReactApplicationContext reactContext) {
     super(reactContext);
